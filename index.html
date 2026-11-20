@@ -44,7 +44,7 @@ nav a:hover,.btn:hover{transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(-
 .orb:active,.orb.hit{transform:translate(8px,8px) scale(.97);box-shadow:2px 2px 0 var(--line)}
 .fly{position:absolute;pointer-events:none;font:900 28px "Arial Black",Impact,sans-serif;color:var(--blue);animation:fly .8s ease-out forwards;z-index:3}
 @keyframes fly{to{transform:translateY(-110px) rotate(var(--r));opacity:0}}
-.ring{position:absolute;width:78%;aspect-ratio:1;border-radius:50%;border:4px dashed var(--blue);animation:spin 24s linear infinite;inset:auto;transform:scale(1.14)}
+.ring{position:absolute;width:78%;aspect-ratio:1;border-radius:50%;border:4px dashed var(--blue);animation:spin 24s linear infinite;inset:auto;transform:scale(1.14);pointer-events:none}
 @keyframes spin{to{transform:scale(1.14) rotate(360deg)}}
 
 section{max-width:1280px;margin:0 auto;padding:clamp(40px,7vw,96px) clamp(16px,4vw,48px)}
